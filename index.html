@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="author" content="Karoline Vargas::karol.v.0570@gmail.com">
+    <meta name="keywords" content="Karoline Vargas, web site, projeto html, curriculo html">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/icons/Logo.svg" type="image/svg+xml">
+    <title>Mangá Verse</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabecalho__menu container__imagem"></span>
+            </label> 
+            <ul class="lista-menu" >
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Shōnen</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Shōujo</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu__link">Josei</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Seinen</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Kodomo</a>
+                </li>
+            </ul>  
+            <img src="assets/icons/Logo.svg" alt="Logo da Mangá Verse" class="container__imagem-logo">
+            <h1 class="container__titulo"><b class="container__titulo-negrito">Mangá</b>Verse</h1>
+        </div>
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+            <ul class="lista-menu" >
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Shōnen</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Shōujo</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu__link">Josei</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Seinen</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Kodomo</a>
+                </li>
+            </ul>  
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Favorito</li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link"></a>Minha estante</li>
+        </ul>
+        <div class="container">
+            <a href="#">
+                <img src="assets/icons/Favoritos.svg" alt="Menu favoritos" class="container__imagem-favorito">
+            </a>
+            <a href="#" class="container__link">
+                <img src="assets/icons/Sacola.svg" alt="Carrinho de compras" class="container__imagem">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="assets/icons/Usuario.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Explore o universo dos mangás!</h2>
+        <p class="banner__texto">Encontre as últimas novidades e os clássicos imperdíveis e mergulhe em histórias incríveis.</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Lançamentos</h2>
+        <div class="carrossel__container">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets/lancamentos/capa-manga-dragonball12.svg" alt="Capa do mangá Dragon Ball volume 12"></div>
+                    <div class="swiper-slide"><img src="assets/lancamentos/capa-manga-bluelock12.svg" alt="Capa do mangá Blue Lock volume 12"></div>
+                    <div class="swiper-slide"><img src="assets/lancamentos/capa-manga-cz41.svg" alt="Capa do mangá Cavalheiro dos Zodiaco volume 41"></div>
+                    <div class="swiper-slide"><img src="assets/lancamentos/capa-manga-fireforce20.svg" alt="Capa do mangá Fire Force volume 20"></div>
+                    <div class="swiper-slide"><img src="assets/lancamentos/capa-manga-berserk1.svg" alt="Capa do mangá Berserk volume 01"></div>
+                    <div class="swiper-slide"><img src="assets/lancamentos/capa-manga-haikyuu5.svg" alt="Capa do mangá Haikyuu volume 05"></div>
+                    <div class="swiper-slide"><img src="assets/lancamentos/capa-manga-hm1.svg" alt="Capa do mangá Hello, melancholic volume 01"></div>
+                    <div class="swiper-slide"><img src="assets/lancamentos/capa-manga-op100.svg" alt="Capa do mangá One Piece volume 100"></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="card">
+                <div class="card__descricao">
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Talvez você se interesse por...</h3>
+                        <h2 class="descricao__titulo-manga">Your Name</h2>
+                        <p class="descricao__texto">Duas vidas. Dois corações. Ligados pelo destino. Mitsuha e Taki precisam descobrir os segredos por trás da magia que os faz trocar de corpos.</p>
+                    </div>
+                    <img src="assets/capa-manga-yourname.svg" class="descricao__imagem">
+                </div>
+                <div class="card__botoes">
+                    <ul class="botoes">
+                        <li class="botoes__item"><img src="assets/icons/Favoritos.svg" alt="Favoritar livro"></li>
+                        <li class="botoes__item"><img src="assets/icons/Sacola.svg" alt="Adicionar no carrinho de compras"></li>
+                    </ul>
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=”carrossel”>
+        <h2 class="carrossel__titulo">Mais vendidos</h2>
+        <div class="carrossel__container">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets/mais-vendidos/capa-manga-naruto2.svg" alt="Capa do mangá Naruto volume 02"></div>
+                    <div class="swiper-slide"><img src="assets/mais-vendidos/capa-manga-cz01.svg" alt="Capa do mangá Cavalheiro dos Zodiaco volume 01"></div>
+                    <div class="swiper-slide"><img src="assets/mais-vendidos/capa-manga-jujutsu1.svg" alt="Capa do mangá Jujutsu Kaisen volume 01"></div>
+                    <div class="swiper-slide"><img src="assets/mais-vendidos/capa-manga-mha1.svg" alt="Capa do mangá My Hero Academia volume 01"></div>
+                    <div class="swiper-slide"><img src="assets/mais-vendidos/capa-manga-op100.svg" alt="Capa do mangá One Piece volume 100"></div>
+                    <div class="swiper-slide"><img src="assets/mais-vendidos/capa-manga-dbz1.svg" alt="Capa do mangá Dragon Ball Z volume 01"></div>
+                    <div class="swiper-slide"><img src="assets/mais-vendidos/capa-manga-sm1.svg" alt="Capa do mangá Sailor Moon volume 01"></div>
+                    <div class="swiper-slide"><img src="assets/mais-vendidos/capa-manga-op.svg" alt="Capa do mangá One Piece Blue"></div>
+                    <div class="swiper-slide"><img src="assets/mais-vendidos/capa-manga-op2.svg" alt="Capa do mangá One Piece volume 02"></div>
+                    <div class="swiper-slide"><img src="assets/mais-vendidos/capa-manga-dbs5.svg" alt="Capa do mangá Dragon Ball Super volume 05"></div>
+                    <div class="swiper-slide"><img src="assets/mais-vendidos/capa-manga-naruto66.svg" alt="Capa do mangá Naruto volume 66"></div>
+                    <div class="swiper-slide"><img src="assets/mais-vendidos/capa-manga-opm1.svg" alt="Capa do mangá One Punch Man volume 01"></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="card">
+                <div class="card__descricao">
+                    <div class="descricao"> <!-- 1º coluna -->
+                        <img src="assets/icons/Estrelinhas.svg" alt="Avaliação 5 estrelas" class="descricao__imagem__avaliacao">
+                        <h3 class="descricao__titulo">Mangá do Mês</h3>
+                        <h2 class="descricao__titulo-manga">One Piece</h2>
+                        <p class="descricao__texto">One Piece é uma série de mangá escrita e ilustrada por Eiichiro Oda. Já existem 105 volumes publicados pela editora Shueisha até junho de 2023.</p>
+                    </div>
+                    <img src="assets/one-piece.webp" class="descricao__imagem"> <!-- 2º coluna -->
+                </div>
+                <div class="card__botoes"> <!-- 2º linha -->
+                    <ul class="botoes"> <!-- 1º coluna -->
+                        <li class="botoes__item"><img src="assets/icons/Favoritos.svg" alt="Favoritar livro"></li>
+                        <li class="botoes__item"><img src="assets/icons/Sacola.svg" alt="Adicionar no carrinho de compras"></li>
+                    </ul>
+                    <a href="#" class="botoes__ancora">Saiba mais</a> <!-- 2º coluna -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="topicos">
+        <h2 class="topicos__titulo">TÓPICOS MAIS VISITADOS</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Shounen</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Naruto</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Romance</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Jujutsu Kaisen</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Luta</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Luffy</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">One Piece</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Dragon Ball</a>
+            </li>
+        </ul>
+    </section>
+    <section class="contato">
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de ofertas, novos mangás, promoções e outros.</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu email" class="contato__email">
+    </section>
+    <hr>
+    <footer class="rodape">
+        <section class="rodape__descricao">
+            <h2 class="rodape__titulo">Mangá Verse</h2>
+            <img src="assets/icons/Logo.svg" alt="Logo da MangaVerse" class="rodape__imagem"> 
+        </section>
+        <div class="rodape__coluna">
+            <ul class="rodape__lista">
+                <ul class="rodape__item">MENU</ul>
+                <li class="rodape__lista__item">
+                    <a href="#" class="rodape__lista__link">Home</a>
+                </li>
+                <li class="rodape__lista__item">
+                    <a href="#" class="rodape__lista__link">Lançamentos</a>
+                </li>
+                <li class="rodape__lista__item">
+                    <a href="#" class="rodape__lista__link">Mais vendidos</a>
+                </li>
+                <li class="rodape__lista__item">
+                    <a href="#" class="rodape__lista__link">Tópicos</a>
+                </li>
+            </ul>
+        </div>
+        <div class="rodape__coluna">
+            <ul class="rodape__lista">
+                <ul class="rodape__item">REDES SOCIAIS</ul>
+                <li class="rodape__lista__item">
+                    <a href="https://www.linkedin.com/in/karoline-vargas/" class="rodape__lista__link">LinkeIn</a>
+                </li>
+                <li class="rodape__lista__item">
+                    <a href="https://github.com/kvargazs" class="rodape__lista__link">GitHub</a>
+                </li>
+                <li class="rodape__lista__item">
+                    <a href="https://instagram.com/kvargazs/" class="rodape__lista__link">Instagram</a>
+                </li>
+            </ul>
+        </div>
+        <img src="assets/icons/Meu-Email.svg" alt="Figura de carta" class="email__imagem">
+        <div class="email">
+            <ul class="email__titulo">E-MAIL PARA CONTATO</ul>
+            <li class="email__lista">
+                <h2 class="email__lista__item">karol.v.0570@gmail.com</h2>
+            </li>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+hr {
+    margin: 0;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    font-weight: 500;
+}
+
+.rodape__descricao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape__titulo {
+    text-align: center;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.rodape__imagem {
+    margin-right: 20px;
+}
+
+.rodape__coluna {
+    display: none;
+}
+
+.email {
+    margin-top: 15px;
+}
+
+.email__imagem {
+    width: 16px;
+    margin: 0 3px 9px 32px;
+}
+
+.email__titulo {
+    color: var(--cor-quintaria);
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.email__lista {
+    display: flex;
+}
+
+.email__lista__item {
+    color: var(--cor-principal);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .rodape {
+        display: flex;
+        justify-content: center;
+        margin: 0 32px;
+        height: 50%;
+    }
+
+    .rodape__coluna {
+        display: flex;
+        margin: 60px 30px;
+    }
+
+    .rodape__titulo {
+        display: flex;
+        font-size: 22px;
+        margin: 0;
+    }
+    
+    .rodape__imagem {
+        width: 110px;
+        height: 278px;
+        margin-left: 12px;
+        text-align: center;
+    }
+    
+    .rodape__item {
+        font-size: 18px;
+        color: var(--cor-quintaria);
+        font-weight: 700;
+        padding: 8px 0;
+    }
+
+    .rodape__lista__item {
+        display: flex;
+        align-items: center;
+        margin: 16px 0;
+    }
+
+    .rodape__lista__link:hover { 
+        color: var(--cor-setemaria);
+    }
+
+    .rodape__lista__link {
+        color: var(--cor-sextaria);
+        text-decoration: none;
+    }
+
+    .email__titulo {
+        color: var(--cor-quintaria);
+        font-weight: 500;
+        font-size: 18px;
+        margin: 120px 5px 0;
+    }
+
+    .email__imagem {
+        width: 24px;
+        text-align: center;
+        margin-left: 16px;
+    }
+
+    .email__lista {
+        display: flex;
+        margin: 10px 5px;
+    }
+
+    .email__lista__item {
+        color: var(--cor-principal);
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .rodape {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .rodape__titulo {
+        margin: 0 30px 0 0;
+    }
+
+    .rodape__coluna {
+        margin: 60px 60px 0 100px;
+    }
+
+    .email__titulo {
+        margin: 110px 5px 0;
+    }
+}
